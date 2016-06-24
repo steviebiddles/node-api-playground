@@ -4,12 +4,18 @@
   "description": "Playground",
   "main": "main.js",
   "scripts": {
-    "start": "node ./server.js",
-    "debug": "",
     "test": "mocha"
   },
   "author": "",
   "license": "ISC",
+  "apidoc": {
+    "name": "Node.dev",
+    "version": "0.1.0",
+    "description": "Simple API built with Nodejs",
+    "title": "API Documentation",
+    "url": "http://localhost:3000",
+    "sampleUrl": "http://localhost:3000"
+  },
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
@@ -18,6 +24,7 @@
   "devDependencies": {
     "debug": "^2.2.0",
     "mocha": "^2.5.3",
-    "supertest": "^1.2.0"
+    "supertest": "^1.2.0",
+    "v8-debug": "^0.7.7"
   }
 }

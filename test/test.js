@@ -1,4 +1,4 @@
-var app = require('../app'),
+var app = require('../src/app'),
     assert = require('assert'),
     request = require('supertest');
 
